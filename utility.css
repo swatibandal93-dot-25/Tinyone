@@ -2,7 +2,7 @@ a, a:link, a:visited{
 	text-decoration:none;
 }
    
-ul, ol{
+ul{
 	list-style:none;
 	
 }
@@ -10,7 +10,7 @@ ul, ol{
    margin:0 auto;
    width:1180px;
    
-   }   
+ }   
    
 .row{
 	display:table;
@@ -33,7 +33,9 @@ ul, ol{
 	float:left;
     padding:0 15px;
 }
-
+.col-1{
+	width:calc((100*1)/12);
+}
 .col-3{
 	
     width:calc((100*3)/12);	

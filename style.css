@@ -56,7 +56,7 @@
 	margin-top:75px;
 }
 .herosection .s-icons li i:hover{
-	transform:scale(1.2) rotate(360deg);
+	transform:scale(1.2);
 	transition:all 0.7s lineare;
 }
 
@@ -92,7 +92,6 @@
   color:#898989;
 }
 
-
 /*..................................................................*/
 .contact-section{
 	padding:95px 0 135px;
@@ -122,7 +121,6 @@
 	width:80%;
 	outline:none;
 	border-radius:5px;
-	
 }
 
  .t-email::placeholder{
